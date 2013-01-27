@@ -1,0 +1,16 @@
+#**
+# * Super mini php proxy
+# * claudio.mulas@lucla.biz
+# *
+# *
+# *
+# * @package    Super mini php proxy
+# * @author     Claudio Mulas <claudio.mulas@lucla.biz>
+# * @copyright  2013 Claudio Mulas
+# * @license    Do whatever you want!
+# * @version    SVN: $Id$
+# * @link       http://www.luclanet.it
+#**
+
+RewriteEngine On
+RewriteRule (.*) index.php?$1 [L]
